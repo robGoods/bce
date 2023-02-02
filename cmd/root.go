@@ -7,7 +7,7 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "Trans",
+	Use:   "trans",
 	Short: "trans is a rob trade c2c for binance.com",
 	Long:  "trans is a rob trade c2c for binance.com",
 	Run: func(cmd *cobra.Command, args []string) {
